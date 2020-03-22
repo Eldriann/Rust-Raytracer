@@ -1,0 +1,55 @@
+{
+  "camera": {
+    "width":800,
+    "height":600,
+    "fov":90.0
+  },
+  "elements": [
+    {
+      "shape": {
+        "SPHERE": {
+          "origin": {
+            "x":0.0,
+            "y":0.0,
+            "z":-5.0
+          },
+          "radius":1.0
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":255,
+          "g":0,
+          "b":0,
+          "a":255
+        },
+        "albedo": 0.8,
+        "reflectiveness": 0.0
+      }
+    }
+  ],
+  "lights": [
+    {
+      "DIRECTIONAL": {
+        "direction": {
+          "x":-0.5774,
+          "y":-0.5774,
+          "z":-0.5774
+        },
+        "brightness":100.0,
+        "color": {
+          "r":255,
+          "g":255,
+          "b":255,
+          "a":255
+        }
+      }
+    }
+  ],
+  "sky_color": {
+    "r":135,
+    "g":206,
+    "b":235,
+    "a":255
+  }
+}

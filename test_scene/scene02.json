@@ -1,0 +1,163 @@
+{
+  "camera": {
+    "width":800,
+    "height":600,
+    "fov":90.0
+  },
+  "elements": [
+    {
+      "shape": {
+        "SPHERE": {
+          "origin": {
+            "x":0.0,
+            "y":0.0,
+            "z":-5.0
+          },
+          "radius":1.0
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":255,
+          "g":0,
+          "b":0,
+          "a":255
+        },
+        "albedo": 0.2,
+        "reflectiveness": 0.0
+      }
+    },
+    {
+      "shape": {
+        "SPHERE": {
+          "origin": {
+            "x":1.0,
+            "y":1.0,
+            "z":-7.0
+          },
+          "radius":1.5
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":0,
+          "g":0,
+          "b":255,
+          "a":255
+        },
+        "albedo": 0.2,
+        "reflectiveness": 0.4
+      }
+    },
+    {
+      "shape": {
+        "SPHERE": {
+          "origin": {
+            "x":3.0,
+            "y":1.0,
+            "z":-2.0
+          },
+          "radius":2.0
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":0,
+          "g":255,
+          "b":0,
+          "a":255
+        },
+        "albedo": 0.2,
+        "reflectiveness": 0.4
+      }
+    },
+    {
+      "shape": {
+        "SPHERE": {
+          "origin": {
+            "x":-1.0,
+            "y":2.0,
+            "z":-5.0
+          },
+          "radius":0.5
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":255,
+          "g":0,
+          "b":255,
+          "a":255
+        },
+        "albedo": 0.4,
+        "reflectiveness": 0.0
+      }
+    },
+    {
+      "shape": {
+        "PLANE": {
+          "point": {
+            "x":0.0,
+            "y":-2.0,
+            "z":-5.0
+          },
+          "normal": {
+            "x":0.0,
+            "y":-1.0,
+            "z":0.0
+          }
+        }
+      },
+      "material": {
+        "base_color": {
+          "r":90,
+          "g":90,
+          "b":90,
+          "a":255
+        },
+        "albedo": 0.4,
+        "reflectiveness": 0.0
+      }
+    }
+  ],
+  "lights": [
+    {
+      "DIRECTIONAL": {
+        "direction": {
+          "x":0.5774,
+          "y":-0.5774,
+          "z":-0.5774
+        },
+        "brightness":20.0,
+        "color": {
+          "r":255,
+          "g":255,
+          "b":255,
+          "a":255
+        }
+      }
+    },
+    {
+      "POINT": {
+        "position": {
+          "x":0.0,
+          "y":-1.0,
+          "z":-4.0
+        },
+        "brightness":250.0,
+        "color": {
+          "r":125,
+          "g":125,
+          "b":0,
+          "a":255
+        }
+      }
+    }
+  ],
+  "sky_color": {
+    "r":135,
+    "g":206,
+    "b":235,
+    "a":255
+  }
+}
